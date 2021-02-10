@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Survey Form</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<header id="title">
+	<h1>Survey Corps</h1>
+	<p id="description"><em>Give up on your dreams and Die<br>- Levi Ackerman</em></p>
+	<hr>
+</header>
+<body>
+	<div class="outer"></div>
+	<div class="container">
+		<div>
+		<form id="survey-form">
+			<label id="name-label">Name</label><br>
+			<input type="text" name="Name" placeholder="Enter Complete Name" id="Name" required><br>
+			
+			<label id="email-label">Email</label><br>
+			<input type="Email" name="Email" placeholder="Enter valid email address" id="Email" required="Please enter valid email address"><br>
+
+			<label id="number-label">Contact Number</label></br>	
+			<input type="Number" name="Contact" maxlength="12" id="Number" placeholder="Enter Contact Number" required>
+		</div>
+	
+		<br>
+
+		<div>	
+		<label>Select Gender</label><br>
+		<select id="dropdown">
+			<option value="Unkown">Unkown</option>
+			<option value="Male">Male</option>
+			<option value="Female">Female</option>
+		</select>
+		</div>
+
+		<br>
+		
+		<div>
+			<h3>Status</h3>
+			<label class="radio">
+  			<input name="radio" type="radio" checked required>
+  			Single
+			</label>
+			<label class="radio">
+  			<input name="radio" type="radio">
+  			Taken
+			</label>
+			<label class="radio">
+  			<input name="radio" type="radio">
+  			Both
+			</label>
+			</div>
+		<br>
+
+		<div>
+			<h3>Skill</h3>
+		<label class="checkbox">
+  			<input name="checkbox" type="checkbox" checked required>
+  			Newbie
+			</label>
+			<label class="checkbox">
+  			<input name="checkbox" type="checkbox">
+  			Experienced
+			</label>
+			<label class="checkbox">
+  			<input name="checkbox" type="checkbox">
+  			Professional
+			</label>
+			</div>
+
+		<br>
+
+		<div>
+			<textarea> Concerns here ..</textarea>
+		</div>
+
+		<br>
+
+		<div>
+			<button id="submit">Submit!</button>
+		</div>
+		</form>
+	</div>
+</div>
+</body>
+</html>
